@@ -25,7 +25,10 @@ h3 {
 /* --- Groups & Items --- */
 
 .group {
+  display: flex;
+  flex-direction: row-reverse; /* or column */
 }
 
 .item {
+  margin: 10px;
 }
